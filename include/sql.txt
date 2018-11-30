@@ -1,0 +1,14 @@
+CREATE SCHEMA `quantox` DEFAULT CHARACTER SET utf16 COLLATE utf16_unicode_ci ;
+
+
+CREATE TABLE `quantox`.`user` 
+(
+  `id` INT(3) NOT NULL AUTO_INCREMENT,
+ 
+ 	`username` VARCHAR(45) NOT NULL,
+ 
+ 	`password` VARCHAR(75) NOT NULL,
+  
+	`email` VARCHAR(70) NOT NULL,
+ 
+ PRIMARY KEY (`id`));
