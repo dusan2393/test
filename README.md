@@ -1,0 +1,1 @@
+Create a database quantox and the table user via the SQL statements in the include folder. Change mySQL database user and password in include/config.php (DB_USER and DB_PASS).
